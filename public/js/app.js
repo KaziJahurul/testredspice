@@ -1965,6 +1965,52 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'homepage',
   props: ['webSiteInfo'],
@@ -19686,8 +19732,8 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "home_wrapper" }, [
-    _c("div", { staticClass: "site_wrapper home" }, [
+  return _c("div", { staticClass: "home site_wrapper" }, [
+    _c("section", { staticClass: "home_banner" }, [
       _c("div", { staticClass: "site_content" }, [
         _c("div", { staticClass: "rs_logo" }, [
           _c("a", { staticClass: "rs_logo_link", attrs: { href: "#" } }, [
@@ -19724,10 +19770,71 @@ var render = function() {
           ])
         ])
       ])
-    ])
+    ]),
+    _vm._v(" "),
+    _vm._m(0)
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "rs_cusine" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-sm" }, [
+            _c("div", { staticClass: "rs_cuisine_in" }, [
+              _c("h2", { staticClass: "rs_section_title" }, [
+                _vm._v("Cuisine")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "rs_cuisine_item" }, [
+                _c("div", { staticClass: "rs_cuisine_item_img" }, [
+                  _c("img", {
+                    attrs: { src: "https://via.placeholder.com/250", alt: "" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "rs_cusine_item_content" }, [
+                  _c("p", [
+                    _vm._v(
+                      "\r\n                                        We bring you some of the most celebrated Mexican dishes which will leaveyou wanting for more, every time. Burritos with Minced Meat Filling. Gorge on delicious tortilla wraps stuffed with spiced minced meat. Chicken Quesadillas.Do-It-Yourself Tacos. Guacamole.Chilli Con Carne.Tomato Salsa. Enchiladas.\r\n                                    "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { staticClass: "rs_btn", attrs: { href: "#" } }, [
+                    _vm._v("ITALIAN")
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "rs_cuisine_item" }, [
+                _c("div", { staticClass: "rs_cuisine_item_img" }, [
+                  _c("img", {
+                    attrs: { src: "https://via.placeholder.com/250", alt: "" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "rs_cusine_item_content" }, [
+                  _c("p", [
+                    _vm._v(
+                      "\r\n                                        We bring you some of the most celebrated Mexican dishes which will leaveyou wanting for more, every time. Burritos with Minced Meat Filling. Gorge on delicious tortilla wraps stuffed with spiced minced meat. Chicken Quesadillas.Do-It-Yourself Tacos. Guacamole.Chilli Con Carne.Tomato Salsa. Enchiladas.\r\n                                    "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { staticClass: "rs_btn", attrs: { href: "#" } }, [
+                    _vm._v("FAST FOOD")
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 

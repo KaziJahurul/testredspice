@@ -1,8 +1,24 @@
+// ============== Universal variables ===============
 $primaryFont: 'Raleway', sans-serif;
-
 
 $primaryTextColor: #000;
 
 $primaryColor: #700203;
-$scondaryColor: #69a342;
+$secondaryColor: #69a342;
 $tertiaryColor: #ee2828;
+
+
+//==============media query variable ============
+$desktop: '(min-width: 1400px)';
+$desktopTab: '(min-width: 768px)';
+$desktopLgToMobile: '(max-width: 1399px)';
+$laptop: '(max-width: 1199px)';
+$tab: 'only screen and (max-width: 991px)';
+$mobile: 'only screen and (max-width: 767px)';
+$mobile-sm: 'only screen and (max-width: 424px)';
+$mobile-375: 'only screen and (max-width: 375px)';
+$mobileLandScape: 'only screen and (orientation: landscape) and (max-width: 767px)';
+
+
+//============== prefix variable =============
+$pf: 'rs_';

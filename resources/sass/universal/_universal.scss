@@ -15,6 +15,9 @@ h1, h2, h3, h4, h5, h6{
 }
 a{
     text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
 }
 img{
     display: block;
@@ -22,14 +25,16 @@ img{
     margin: auto;
 }
 .rs_btn{
+    text-align: center;
     display: inline-block;
     padding: 10px 30px;
-    background: $scondaryColor;
+    background: $secondaryColor;
     color: #fff;
-    border-radius: 20px;
-    min-width: 120px;
+    border-radius: 25px;
+    min-width: 180px;
     transition: all .4s ease-in;
     font-weight: 700;
+    border: 2px solid $secondaryColor;
     &:hover{
         background: #fff;
         color: $primaryColor;
