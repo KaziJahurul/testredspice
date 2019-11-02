@@ -22,7 +22,9 @@
                     :class="[(index === 0) ? 'current_page' : '']"
                     :key="index"
                 >
-                    <a :href="item.itemUrl"> {{ item.itemText }} </a>
+                    <router-link :to="item.itemUrl">
+                        {{ item.itemText }}
+                    </router-link>
                 </li>
             </ul>
         </div>

@@ -11142,12 +11142,13 @@ img {
   padding: 10px 30px;
   background: #69a342;
   color: #fff;
-  border-radius: 25px;
+  border-radius: 5px;
   min-width: 180px;
   -webkit-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
   font-weight: 700;
   border: 2px solid #69a342;
+  text-transform: uppercase;
 }
 
 .rs_btn:hover {
@@ -11232,6 +11233,24 @@ img {
   font-weight: 400;
 }
 
+.rs_booking_cta_section {
+  padding: 50px 0;
+}
+
+.rs_booking_cta_section .rs_booking_cta_holder {
+  text-align: center;
+}
+
+.rs_booking_cta_section .rs_booking_cta_holder .rs_btn {
+  background: #700203;
+  border-radius: 4px;
+  border: 2px solid #700203;
+}
+
+.rs_booking_cta_section .rs_booking_cta_holder .rs_btn:hover {
+  background: #fff;
+}
+
 .home_banner {
   display: -webkit-box;
   display: flex;
@@ -11295,6 +11314,8 @@ img {
 .rs_cusine .rs_cuisine_in .rs_cuisine_item {
   display: -webkit-box;
   display: flex;
+  -webkit-box-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
           justify-content: space-between;
   width: 100%;
@@ -11316,7 +11337,6 @@ img {
 
 .rs_cusine .rs_cuisine_in .rs_cuisine_item .rs_cusine_item_content {
   width: 78%;
-  align-self: center;
   padding: 30px;
 }
 

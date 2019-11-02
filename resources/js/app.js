@@ -1,19 +1,30 @@
 require('./bootstrap');
 import Vue from 'vue';
-import axios from 'axios';
+window.Vue = Vue;
 
+import VueRouter from 'vue-router';
+Vue.use(VueRouter);
+
+import axios from 'axios';
 window.axios = axios;
 
+import router from './routes';
+
+
+
+
+
 import BurgerNav from './components/BurgerNav.vue';
-import HomePage from './view/HomePage.vue';
+// import HomePage from './views/HomePage.vue';
 
 
 new Vue({
     el: '#app',
     components: {
         BurgerNav,
-        HomePage,
+        // HomePage,
     },
+    router,
     data: {
         webSiteInfo: {
             siteLogo: 'images/logo.svg',
@@ -25,5 +36,4 @@ new Vue({
         
 
     },
-
 });

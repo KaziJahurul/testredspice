@@ -6,6 +6,12 @@
 
 @import "universal/universal";
 
+
+// load components scss here
 @import "components/main-nav";
 
+@import "components/booking-cta";
+
+
+// load page scss here
 @import "page/home";

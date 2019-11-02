@@ -30,7 +30,7 @@
             <div class="content">
                <div id="app">
                     <burger-nav :web-site-info="webSiteInfo"></burger-nav>
-                    <home-page :web-site-info="webSiteInfo"></home-page>
+                    <router-view />
                </div>
             </div>
         </div>

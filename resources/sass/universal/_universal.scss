@@ -30,11 +30,12 @@ img{
     padding: 10px 30px;
     background: $secondaryColor;
     color: #fff;
-    border-radius: 25px;
+    border-radius: 5px;
     min-width: 180px;
     transition: all .4s ease-in;
     font-weight: 700;
     border: 2px solid $secondaryColor;
+    text-transform: uppercase;
     &:hover{
         background: #fff;
         color: $primaryColor;

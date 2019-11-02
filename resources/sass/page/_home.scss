@@ -51,6 +51,7 @@
         }
         .rs_cuisine_item{
             display: flex;
+            align-items: center;
             justify-content: space-between;
             width: 100%;
             color: #fff;
@@ -66,11 +67,11 @@
             }
             .rs_cusine_item_content{
                 width: 78%;
-                align-self: center;
+                // align-self: center;
                 padding: 30px;
-                .rs_btn{
+                // .rs_btn{
 
-                }
+                // }
             }
         }
     }
