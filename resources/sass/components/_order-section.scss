@@ -1,0 +1,35 @@
+// ================ order section scss =================
+.rs_order_section{
+    background: url(../images/order-bg.jpg) center/cover no-repeat;
+    
+    .rs_order_section_in{
+        padding: 100px 85px;
+        background: rgba(0, 0, 0, 0.5);
+        .delivery_btn_holder{
+            text-align: center;
+            margin-bottom: 60px;
+            .rs_btn{
+                margin-right: 30px;
+                // font-size: 25px;
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+        .order_btn_holder{
+            text-align: center;
+            margin: 60px 0 80px;
+            display: flex;
+            justify-content: space-between;
+            .rs_btn{
+                // font-size: 25px;
+            }
+        }
+        .skip_btn_holder{
+            text-align: center;
+            .rs_btn{
+                font-size: 20px;
+            }
+        }
+    }
+}

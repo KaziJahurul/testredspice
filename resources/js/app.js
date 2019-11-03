@@ -30,6 +30,10 @@ new Vue({
             siteLogo: 'images/logo.svg',
             siteTitle: 'RED SPICE RESTAURANT',
         },
+        BookingNow: {
+            text: 'Booking Now',
+            url: '/',
+        },
     },
     methods: {
 

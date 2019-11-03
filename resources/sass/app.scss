@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
 
-@import "node_modules/bootstrap/scss/bootstrap";
+// @import "node_modules/bootstrap/scss/bootstrap";
 
 @import "variable";
 
@@ -9,8 +9,9 @@
 
 // load components scss here
 @import "components/main-nav";
-
 @import "components/booking-cta";
+@import "components/order-section";
+@import "components/subscription-section";
 
 
 // load page scss here

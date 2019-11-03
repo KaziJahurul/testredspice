@@ -1,0 +1,16 @@
+//  ================ Subscription ============
+.subscription_section{
+    padding: 50px 0;
+    background: $primaryColor;
+    .subs_form{
+        .form-group{
+            @media #{$desktopTab} {
+                margin-bottom: 0;
+            }
+        }
+        .btn-primary{
+            background: $secondaryColor;
+            border-color: $secondaryColor;
+        }
+    }
+}

@@ -1829,6 +1829,44 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/BookingCta.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/BookingCta.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'bookingCta',
+  props: ['BookingNow'],
+  data: function data() {
+    return {
+      BookingNowcomp: this.BookingNow
+    };
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/BurgerNav.vue?vue&type=script&lang=js&":
 /*!********************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/BurgerNav.vue?vue&type=script&lang=js& ***!
@@ -1934,6 +1972,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _components_BookingCta_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/BookingCta.vue */ "./resources/js/components/BookingCta.vue");
+/* harmony import */ var _components_SubscriptionSection_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/SubscriptionSection.vue */ "./resources/js/components/SubscriptionSection.vue");
 //
 //
 //
@@ -2029,15 +2069,73 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'homepage',
+  components: {
+    BookingCta: _components_BookingCta_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    SubscriptionSection: _components_SubscriptionSection_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
+  },
+  props: ['webSiteInfo', 'BookingNow'],
   data: function data() {
     return {
-      // siteInfo: this.webSiteInfo,
-      siteInfo: {
-        siteLogo: 'images/logo.svg',
-        siteTitle: 'RED SPICE RESTAURANT'
-      },
+      siteInfo: this.webSiteInfo,
       orderBtn: {
         text: 'Order Now',
         url: '#'
@@ -19659,6 +19757,52 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/BookingCta.vue?vue&type=template&id=55c8d022&":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/BookingCta.vue?vue&type=template&id=55c8d022& ***!
+  \*************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("section", { staticClass: "rs_booking_cta_section" }, [
+    _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-sm" }, [
+          _c(
+            "div",
+            { staticClass: "rs_booking_cta_holder" },
+            [
+              _c(
+                "router-link",
+                {
+                  staticClass: "rs_btn",
+                  attrs: { to: _vm.BookingNowcomp.url }
+                },
+                [_vm._v(_vm._s(_vm.BookingNowcomp.text))]
+              )
+            ],
+            1
+          )
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/BurgerNav.vue?vue&type=template&id=23109793&":
 /*!************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/BurgerNav.vue?vue&type=template&id=23109793& ***!
@@ -19743,6 +19887,92 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SubscriptionSection.vue?vue&type=template&id=779d4ced&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/SubscriptionSection.vue?vue&type=template&id=779d4ced& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "subscription_section" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-sm-8 offset-md-2" }, [
+            _c("form", { staticClass: "row subs_form" }, [
+              _c("div", { staticClass: "form-group col-sm" }, [
+                _c(
+                  "label",
+                  { staticClass: "sr-only", attrs: { for: "staticEmail1" } },
+                  [_vm._v("Subscribe US")]
+                ),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "text",
+                    id: "staticEmail1",
+                    placeholder: "Your Name",
+                    required: ""
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group col-sm" }, [
+                _c(
+                  "label",
+                  { staticClass: "sr-only", attrs: { for: "staticEmail2" } },
+                  [_vm._v("Subscribe US")]
+                ),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "form-control",
+                  attrs: {
+                    type: "emial",
+                    id: "staticEmail2",
+                    placeholder: "Your Email",
+                    required: ""
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group col-sm" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-primary col",
+                    attrs: { type: "submit" }
+                  },
+                  [_vm._v("Subscribe Us")]
+                )
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/HomePage.vue?vue&type=template&id=9872dda6&":
 /*!******************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/HomePage.vue?vue&type=template&id=9872dda6& ***!
@@ -19758,50 +19988,64 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "home site_wrapper" }, [
-    _c("section", { staticClass: "home_banner" }, [
-      _c("div", { staticClass: "site_content" }, [
-        _c("div", { staticClass: "rs_logo" }, [
-          _c("a", { staticClass: "rs_logo_link", attrs: { href: "#" } }, [
-            _c("img", {
-              staticClass: "logo_img",
-              attrs: { src: _vm.siteInfo.siteLogo, alt: "Red Spice Restaurant" }
-            })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "home_title" }, [
-          _vm.siteInfo.siteTitle
-            ? _c("h1", {
-                domProps: { textContent: _vm._s(_vm.siteInfo.siteTitle) }
+  return _c(
+    "div",
+    { staticClass: "home site_wrapper" },
+    [
+      _c("section", { staticClass: "home_banner" }, [
+        _c("div", { staticClass: "site_content" }, [
+          _c("div", { staticClass: "rs_logo" }, [
+            _c("a", { staticClass: "rs_logo_link", attrs: { href: "#" } }, [
+              _c("img", {
+                staticClass: "logo_img",
+                attrs: {
+                  src: _vm.siteInfo.siteLogo,
+                  alt: "Red Spice Restaurant"
+                }
               })
-            : _vm._e()
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "btn_container" }, [
-          _c("div", { staticClass: "btn_holder" }, [
-            _c("a", {
-              staticClass: "order rs_btn",
-              attrs: { href: _vm.orderBtn.url },
-              domProps: { textContent: _vm._s(_vm.orderBtn.text) }
-            })
+            ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "button_holder" }, [
-            _c("a", {
-              staticClass: "booking rs_btn",
-              attrs: { href: _vm.bookBtn.url },
-              domProps: { textContent: _vm._s(_vm.bookBtn.text) }
-            })
+          _c("div", { staticClass: "home_title" }, [
+            _vm.siteInfo.siteTitle
+              ? _c("h1", {
+                  domProps: { textContent: _vm._s(_vm.siteInfo.siteTitle) }
+                })
+              : _vm._e()
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "btn_container" }, [
+            _c("div", { staticClass: "btn_holder" }, [
+              _c("a", {
+                staticClass: "order rs_btn",
+                attrs: { href: _vm.orderBtn.url },
+                domProps: { textContent: _vm._s(_vm.orderBtn.text) }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "button_holder" }, [
+              _c("a", {
+                staticClass: "booking rs_btn",
+                attrs: { href: _vm.bookBtn.url },
+                domProps: { textContent: _vm._s(_vm.bookBtn.text) }
+              })
+            ])
           ])
         ])
-      ])
-    ]),
-    _vm._v(" "),
-    _vm._m(0),
-    _vm._v(" "),
-    _vm._m(1)
-  ])
+      ]),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _c("booking-cta", { attrs: { "booking-now": _vm.BookingNow } }),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _c("booking-cta", { attrs: { "booking-now": _vm.BookingNow } }),
+      _vm._v(" "),
+      _c("subscription-section")
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
@@ -19872,13 +20116,87 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "rs_booking_cta_section" }, [
+    return _c("section", { staticClass: "rs_order_section" }, [
       _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-sm" }, [
-            _c("div", { staticClass: "rs_booking_cta_holder" }, [
-              _c("a", { staticClass: "rs_btn", attrs: { href: "#" } }, [
-                _vm._v("Booking Now")
+        _c("div", { staticClass: "rs_order_section_in" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-sm" }, [
+              _c("div", { staticClass: "delivery_btn_holder" }, [
+                _c("a", { staticClass: "rs_btn", attrs: { href: "#" } }, [
+                  _vm._v("Delivary")
+                ]),
+                _vm._v(" "),
+                _c("a", { staticClass: "rs_btn", attrs: { href: "#" } }, [
+                  _vm._v("Take-Away")
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-sm-4" }, [
+              _c("div", { staticClass: "booking_city_search" }, [
+                _c(
+                  "select",
+                  {
+                    staticClass: "custom-select mr-sm-2",
+                    attrs: { id: "inlineFormCustomSelect" }
+                  },
+                  [
+                    _c("option", { attrs: { selected: "" } }, [
+                      _vm._v("Choose...")
+                    ]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "1" } }, [_vm._v("One")]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "2" } }, [_vm._v("Two")]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "3" } }, [_vm._v("Three")])
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-sm-8" }, [
+              _c("div", { staticClass: "booking_addr_search" }, [
+                _c(
+                  "select",
+                  {
+                    staticClass: "custom-select mr-sm-2",
+                    attrs: { id: "inlineFormCustomSelect" }
+                  },
+                  [
+                    _c("option", { attrs: { selected: "" } }, [
+                      _vm._v("Choose...")
+                    ]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "1" } }, [_vm._v("One")]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "2" } }, [_vm._v("Two")]),
+                    _vm._v(" "),
+                    _c("option", { attrs: { value: "3" } }, [_vm._v("Three")])
+                  ]
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-sm" }, [
+              _c("div", { staticClass: "order_btn_holder" }, [
+                _c("a", { staticClass: "rs_btn", attrs: { href: "#" } }, [
+                  _vm._v("Order Now")
+                ]),
+                _vm._v(" "),
+                _c("a", { staticClass: "rs_btn", attrs: { href: "#" } }, [
+                  _vm._v("Order Later")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "skip_btn_holder" }, [
+                _c("a", { staticClass: "rs_btn", attrs: { href: "#" } }, [
+                  _vm._v("Skip to see Menu")
+                ])
               ])
             ])
           ])
@@ -34962,6 +35280,10 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
     webSiteInfo: {
       siteLogo: 'images/logo.svg',
       siteTitle: 'RED SPICE RESTAURANT'
+    },
+    BookingNow: {
+      text: 'Booking Now',
+      url: '/'
     }
   },
   methods: {}
@@ -34998,6 +35320,75 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     encrypted: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/components/BookingCta.vue":
+/*!************************************************!*\
+  !*** ./resources/js/components/BookingCta.vue ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _BookingCta_vue_vue_type_template_id_55c8d022___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BookingCta.vue?vue&type=template&id=55c8d022& */ "./resources/js/components/BookingCta.vue?vue&type=template&id=55c8d022&");
+/* harmony import */ var _BookingCta_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BookingCta.vue?vue&type=script&lang=js& */ "./resources/js/components/BookingCta.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _BookingCta_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _BookingCta_vue_vue_type_template_id_55c8d022___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _BookingCta_vue_vue_type_template_id_55c8d022___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/BookingCta.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/BookingCta.vue?vue&type=script&lang=js&":
+/*!*************************************************************************!*\
+  !*** ./resources/js/components/BookingCta.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BookingCta_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./BookingCta.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/BookingCta.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BookingCta_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/BookingCta.vue?vue&type=template&id=55c8d022&":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/components/BookingCta.vue?vue&type=template&id=55c8d022& ***!
+  \*******************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BookingCta_vue_vue_type_template_id_55c8d022___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./BookingCta.vue?vue&type=template&id=55c8d022& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/BookingCta.vue?vue&type=template&id=55c8d022&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BookingCta_vue_vue_type_template_id_55c8d022___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BookingCta_vue_vue_type_template_id_55c8d022___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 
@@ -35065,6 +35456,59 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BurgerNav_vue_vue_type_template_id_23109793___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BurgerNav_vue_vue_type_template_id_23109793___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/SubscriptionSection.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/SubscriptionSection.vue ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _SubscriptionSection_vue_vue_type_template_id_779d4ced___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SubscriptionSection.vue?vue&type=template&id=779d4ced& */ "./resources/js/components/SubscriptionSection.vue?vue&type=template&id=779d4ced&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _SubscriptionSection_vue_vue_type_template_id_779d4ced___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _SubscriptionSection_vue_vue_type_template_id_779d4ced___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/SubscriptionSection.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/SubscriptionSection.vue?vue&type=template&id=779d4ced&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/SubscriptionSection.vue?vue&type=template&id=779d4ced& ***!
+  \****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SubscriptionSection_vue_vue_type_template_id_779d4ced___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./SubscriptionSection.vue?vue&type=template&id=779d4ced& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SubscriptionSection.vue?vue&type=template&id=779d4ced&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SubscriptionSection_vue_vue_type_template_id_779d4ced___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SubscriptionSection_vue_vue_type_template_id_779d4ced___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
