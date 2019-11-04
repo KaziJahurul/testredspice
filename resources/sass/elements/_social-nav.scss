@@ -17,6 +17,9 @@
             border: 1px solid #fff;
             text-align: center;
             line-height: 40px;
+            &:hover{
+                border: 1px solid $secondaryColor;
+            }
         }
     }
 }
