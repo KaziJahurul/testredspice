@@ -54,6 +54,31 @@ img {
   color: #57813a;
 }
 
+.social_nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.social_nav li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.social_nav li:first-child {
+  margin-left: 0;
+}
+
+.social_nav li a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  text-align: center;
+  line-height: 40px;
+}
+
 .burger {
   position: fixed;
   top: 0;
@@ -203,6 +228,41 @@ img {
 .subscription_section .subs_form .btn-primary {
   background: #57813a;
   border-color: #57813a;
+}
+
+.site_footer {
+  background: url(/images/footer_bg.jpg?e4c8c20bea766f7b358b7f934cc78ed9) center/cover no-repeat;
+  padding: 100px 0;
+}
+
+.site_footer .foter_col {
+  color: #fff;
+}
+
+.site_footer .foter_col .footer_logo {
+  height: 120px;
+  margin-left: 0;
+  margin-bottom: 50px;
+}
+
+.site_footer .foter_col .footer_title {
+  color: #57813a;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.site_footer .foter_col a {
+  color: #fff;
+}
+
+.site_footer .foter_col a:hover {
+  color: #700203;
+}
+
+.site_footer .foter_col .footer_list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .home_banner {

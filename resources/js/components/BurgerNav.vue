@@ -82,7 +82,7 @@ export default {
             thisNav.transformPercent = 0;
             thisNav.burgerImage = thisNav.burgerImageArray[1];
             }
-            console.log(thisNav.openNav);
+            // console.log(thisNav.openNav);
         },
     },
     computed: {

@@ -6,12 +6,15 @@
 
 @import "universal/universal";
 
+// load Elements scss here
+@import "elements/social-nav";
 
 // load components scss here
 @import "components/main-nav";
 @import "components/booking-cta";
 @import "components/order-section";
 @import "components/subscription-section";
+@import "components/site-footer";
 
 
 // load page scss here

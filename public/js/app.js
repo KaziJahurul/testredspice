@@ -1953,9 +1953,8 @@ __webpack_require__.r(__webpack_exports__);
         thisNav.openNav = true;
         thisNav.transformPercent = 0;
         thisNav.burgerImage = thisNav.burgerImageArray[1];
-      }
+      } // console.log(thisNav.openNav);
 
-      console.log(thisNav.openNav);
     }
   },
   computed: {}
@@ -1974,6 +1973,51 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_BookingCta_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/BookingCta.vue */ "./resources/js/components/BookingCta.vue");
 /* harmony import */ var _components_SubscriptionSection_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/SubscriptionSection.vue */ "./resources/js/components/SubscriptionSection.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -20042,7 +20086,38 @@ var render = function() {
       _vm._v(" "),
       _c("booking-cta", { attrs: { "booking-now": _vm.BookingNow } }),
       _vm._v(" "),
-      _c("subscription-section")
+      _c("subscription-section"),
+      _vm._v(" "),
+      _c("section", { staticClass: "site_footer" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-sm" }, [
+              _c(
+                "div",
+                { staticClass: "foter_col footer_col_1" },
+                [
+                  _c("router-link", { attrs: { to: "/" } }, [
+                    _c("img", {
+                      staticClass: "footer_logo",
+                      attrs: {
+                        src: _vm.siteInfo.siteLogo,
+                        alt: "Red Spice Restaurant"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _vm._m(2)
+                ],
+                1
+              )
+            ]),
+            _vm._v(" "),
+            _vm._m(3),
+            _vm._v(" "),
+            _vm._m(4)
+          ])
+        ])
+      ])
     ],
     1
   )
@@ -20199,6 +20274,107 @@ var staticRenderFns = [
                 ])
               ])
             ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("ul", { staticClass: "social_nav" }, [
+      _c("li", [
+        _c("a", { attrs: { href: "#" } }, [
+          _c("i", { staticClass: "fa fa-facebook-f" })
+        ])
+      ]),
+      _vm._v(" "),
+      _c("li", [
+        _c("a", { attrs: { href: "#" } }, [
+          _c("i", { staticClass: "fa fa-twitter" })
+        ])
+      ]),
+      _vm._v(" "),
+      _c("li", [
+        _c("a", { attrs: { href: "" } }, [
+          _c("i", { staticClass: "fa fa-instagram" })
+        ])
+      ]),
+      _vm._v(" "),
+      _c("li", [
+        _c("a", { attrs: { href: "" } }, [
+          _c("i", { staticClass: "fa fa-youtube" })
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-sm" }, [
+      _c("div", { staticClass: "foter_col footer_col_2" }, [
+        _c("h3", { staticClass: "footer_title" }, [_vm._v("Opening Hours")]),
+        _vm._v(" "),
+        _c("ul", { staticClass: "footer_list" }, [
+          _c("li", [_vm._v("Monday - Friday\t08.00 am - 10.00 pm")]),
+          _vm._v(" "),
+          _c("li", [_vm._v("Saturday\t\t08.00 am - 10.00 pm")]),
+          _vm._v(" "),
+          _c("li", [_vm._v("Sunday\t\t08.00 am - 10.00 pm")])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-sm" }, [
+      _c("div", { staticClass: "foter_col footer_col_3" }, [
+        _c("h3", { staticClass: "footer_title" }, [_vm._v("Contact Us")]),
+        _vm._v(" "),
+        _c("ul", { staticClass: "footer_list" }, [
+          _c("li", [
+            _c("a", { attrs: { href: "#" } }, [
+              _c("i", { staticClass: "fa fa-map-marker" })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "tel:+971551457856" } }, [
+              _c("i", { staticClass: "fa fa-phone" }),
+              _vm._v(" +971551457856")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "mailto:info@redspice.ae" } }, [
+              _c("i", { staticClass: "fa fa-envelope" }),
+              _vm._v(" info@redspice.ae")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "www.redspice.ae" } }, [
+              _c("i", { staticClass: "fa fa-globe" }),
+              _vm._v(" www.redspice.ae")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _vm._v(
+              "\r\n                                P.O. Box: 31436, Shop: 5 & 6 "
+            ),
+            _c("br"),
+            _vm._v(
+              "\r\n                                Beside Marina Hotel Appartments"
+            ),
+            _c("br"),
+            _vm._v(
+              "\r\n                                Marina Walk, Dubai Marina Dubai, UAE\r\n\r\n                            "
+            )
           ])
         ])
       ])

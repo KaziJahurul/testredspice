@@ -145,6 +145,51 @@
 
     <subscription-section></subscription-section>
 
+    <section class="site_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="foter_col footer_col_1">
+                        <router-link to="/"><img :src="siteInfo.siteLogo" alt="Red Spice Restaurant" class="footer_logo"></router-link>
+                        <ul class="social_nav">
+                            <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="foter_col footer_col_2">
+                        <h3  class="footer_title">Opening Hours</h3>
+                        <ul class="footer_list">
+                            <li>Monday - Friday	08.00 am - 10.00 pm</li>
+                            <li>Saturday		08.00 am - 10.00 pm</li>
+                            <li>Sunday		08.00 am - 10.00 pm</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="foter_col footer_col_3">
+                        <h3  class="footer_title">Contact Us</h3>
+                        <ul class="footer_list">
+                            <li><a href="#"><i class="fa fa-map-marker"></i></a></li>
+                            <li><a href="tel:+971551457856"><i class="fa fa-phone"></i> +971551457856</a></li>
+                            <li><a href="mailto:info@redspice.ae"><i class="fa fa-envelope"></i> info@redspice.ae</a></li>
+                            <li><a href="www.redspice.ae"><i class="fa fa-globe"></i> www.redspice.ae</a></li>
+                            <li>
+                                P.O. Box: 31436, Shop: 5 &amp; 6 <br>
+                                Beside Marina Hotel Appartments<br>
+                                Marina Walk, Dubai Marina Dubai, UAE
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </div>
 </template>
 
