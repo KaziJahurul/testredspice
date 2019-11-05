@@ -45,5 +45,5 @@ new Vue({
           const fromDepth = from.path.split('/').length
           this.transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left'
         }
-      }
+    }
 });

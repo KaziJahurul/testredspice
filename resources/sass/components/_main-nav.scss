@@ -16,12 +16,15 @@
         top: 30px;
         right: 30px;
         z-index: 99;
+        padding: 7px;
+        background: #af1f23;
+        border-radius: 4px;
+        cursor: pointer;
         .burger_icon{
-            width: 45px;
-            height: 45px;
+            width: 40px;
+            height: 40px;
             object-fit: contain;
             object-position: center;
-            cursor: pointer;
         }
     }
     .main_nav_container{
@@ -53,10 +56,8 @@
                 font-weight: 300;
                 text-transform: uppercase;
                 display: inline-block;
-               }
-               &.current_page{
-                a{
-                    font-weight: 400;
+                &.router-link-exact-active{
+                    font-weight: 500;
                 }
                }
             }

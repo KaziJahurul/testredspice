@@ -31,10 +31,11 @@
 
             <div class="content">
                <div id="app">
+
                     <burger-nav :web-site-info="webSiteInfo"></burger-nav>
-                    <transition :name="transitionName">
-                        <router-view :web-site-info="webSiteInfo" :booking-now="BookingNow"/>
-                    </transition>
+                    
+                    <router-view :web-site-info="webSiteInfo" :booking-now="BookingNow"></router-view>
+                    
                </div>
             </div>
         </div>

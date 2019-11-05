@@ -72,15 +72,15 @@ export default {
     },
     methods: {
         clickNav: function() {
-            let thisNav = this.mainNav;
-            if(thisNav.openNav) {
-            thisNav.openNav = false;
-            thisNav.transformPercent = 110;
-            thisNav.burgerImage = thisNav.burgerImageArray[0];
+                let thisNav = this.mainNav;
+                if(thisNav.openNav) {
+                thisNav.openNav = false;
+                thisNav.transformPercent = 110;
+                thisNav.burgerImage = thisNav.burgerImageArray[0];
             } else {
-            thisNav.openNav = true;
-            thisNav.transformPercent = 0;
-            thisNav.burgerImage = thisNav.burgerImageArray[1];
+                thisNav.openNav = true;
+                thisNav.transformPercent = 0;
+                thisNav.burgerImage = thisNav.burgerImageArray[1];
             }
             // console.log(thisNav.openNav);
         },
