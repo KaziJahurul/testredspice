@@ -32,7 +32,9 @@
             <div class="content">
                <div id="app">
                     <burger-nav :web-site-info="webSiteInfo"></burger-nav>
-                    <router-view :web-site-info="webSiteInfo" :booking-now="BookingNow"/>
+                    <transition :name="transitionName">
+                        <router-view :web-site-info="webSiteInfo" :booking-now="BookingNow"/>
+                    </transition>
                </div>
             </div>
         </div>

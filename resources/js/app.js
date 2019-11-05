@@ -15,14 +15,12 @@ import router from './routes';
 
 
 import BurgerNav from './components/BurgerNav.vue';
-// import HomePage from './views/HomePage.vue';
 
 
 new Vue({
     el: '#app',
     components: {
         BurgerNav,
-        // HomePage,
     },
     router,
     data: {
@@ -34,10 +32,18 @@ new Vue({
             text: 'Booking Now',
             url: '/',
         },
+        transitionName: '',
     },
     methods: {
 
         
 
     },
+    watch: {
+        '$route' (to, from) {
+          const toDepth = to.path.split('/').length
+          const fromDepth = from.path.split('/').length
+          this.transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left'
+        }
+      }
 });

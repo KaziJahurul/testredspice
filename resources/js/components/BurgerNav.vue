@@ -19,8 +19,8 @@
             <ul v-if="mainNav.navItems.length > 0" class="primary_nav">
                 <li 
                     v-for="(item, index) in mainNav.navItems"
-                    :class="[(index === 0) ? 'current_page' : '']"
                     :key="index"
+                    @click="clickNav"
                 >
                     <router-link :to="item.itemUrl">
                         {{ item.itemText }}
@@ -44,7 +44,7 @@ export default {
                 openNav: false,
                 burgerImageArray: ['images/burger.png', 'images/burger_close.png'],
                 burgerImage: 'images/burger.png',
-                transformPercent: 100,
+                transformPercent: 110,
                 navItems: [
                     {
                         itemText: 'Home',
@@ -75,7 +75,7 @@ export default {
             let thisNav = this.mainNav;
             if(thisNav.openNav) {
             thisNav.openNav = false;
-            thisNav.transformPercent = 100;
+            thisNav.transformPercent = 110;
             thisNav.burgerImage = thisNav.burgerImageArray[0];
             } else {
             thisNav.openNav = true;
