@@ -2404,6 +2404,35 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'reservationpage',
   props: ['webSiteInfo']
@@ -20854,9 +20883,46 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "site_wrapper page_reservation" }, [
-      _c("h2", [_vm._v("Welcome to Reservation Page")]),
-      _vm._v(" "),
-      _c("h3", [_vm._v("Coming Soon")])
+      _c("section", { staticClass: "reservation_section" }, [
+        _c("div", { staticClass: "reservation_container" }, [
+          _c("form", { staticClass: "reservation_form" }, [
+            _c("div", { staticClass: "form_field" }, [
+              _c("input", {
+                staticClass: "rs_freservation_field",
+                attrs: { type: "text" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "form_field" }, [
+              _c("input", {
+                staticClass: "rs_freservation_field",
+                attrs: { type: "text" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "form_field" }, [
+              _c("input", {
+                staticClass: "rs_freservation_field",
+                attrs: { type: "text" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "form_field" }, [
+              _c("input", {
+                staticClass: "rs_freservation_field",
+                attrs: { type: "text" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "form_field" }, [
+              _c("input", {
+                staticClass: "rs_freservation_field",
+                attrs: { type: "text" }
+              })
+            ])
+          ])
+        ])
+      ])
     ])
   }
 ]
